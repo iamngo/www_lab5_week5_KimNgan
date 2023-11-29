@@ -2,6 +2,7 @@
 www_lab5_week5_KimNgan
 - Company:
   + Đăng nhập: ![image](https://github.com/iamngo/www_lab5_week5_KimNgan/assets/88821216/96ef4eb9-d144-43e5-9d27-90f2ebabd6fc)
+  + Đăng nhập thành công: ![image](https://github.com/iamngo/www_lab5_week5_KimNgan/assets/88821216/369ab5d6-87fd-4e07-9320-1e3b79792269)
   + Thêm job: ![image](https://github.com/iamngo/www_lab5_week5_KimNgan/assets/88821216/c0ef2264-2aa9-4de7-9028-bafbea6bb31a)
 - Candidate:
   + Đăng nhập: ![image](https://github.com/iamngo/www_lab5_week5_KimNgan/assets/88821216/40ded2d0-0982-4f36-a4a1-3cf6b452718a)
