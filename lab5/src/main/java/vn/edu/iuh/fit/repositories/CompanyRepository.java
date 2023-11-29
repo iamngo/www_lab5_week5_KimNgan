@@ -14,7 +14,7 @@ import java.util.Optional;
 public interface CompanyRepository extends JpaRepository<Company, Long> {
     Page<Company> findAll(Pageable pageable);
     @Query(
-            value = "SELECT c.com_id, js.job_id, js.skill_id, js.skill_level, js.more_infos FROM company AS c INNER JOIN job AS j ON c.com_id = j.company INNER JOIN job_skill AS js ON j.job_id = js.job_id INNER JOIN skill AS s ON js.skill_id = s.skill_id WHERE c.com_id = ?1",
+            value = "SELECT c.com_id, js.job_id, js.skill_id, js.skill_level, js.more_info FROM company AS c INNER JOIN job AS j ON c.com_id = j.company INNER JOIN job_skill AS js ON j.job_id = js.job_id INNER JOIN skill AS s ON js.skill_id = s.skill_id WHERE c.com_id = ?1",
             nativeQuery = true
     )
     List<Object[]> getInfo(long id);

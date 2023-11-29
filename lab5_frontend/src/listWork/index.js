@@ -48,14 +48,15 @@ const ListWork = () => {
         <div className="container">
         <div className="header"><Logo /></div>
         <div className="content">
+          <div className="show-rs"><b>Có {`${jobs.length}`} công việc phù hợp với bạn</b></div>
             {jobs.map((job, index) => (
                 <div key={index} className="content-job">
                     <div className="job-name"><b>{job.job.name}</b></div>
-                    <div>Skill name: {job.skill.skillName}</div>
-                    <div>Skill type: {job.skill.skillType}</div>
-                    <div>Skill description: {job.skill.skillDescription}</div>
-                    <div>Level: {job.level}</div>
-                    <div>More information: {job.moreInfo}</div>
+                    <div><b>Skill name: </b>{job.skill.skillName}</div>
+                    <div><b>Skill type: </b>{job.skill.skillType}</div>
+                    <div><b>Skill description: </b>{job.skill.skillDescription}</div>
+                    <div><b>Level: </b>{job.level}</div>
+                    <div><b>More information: </b>{job.moreInfo}</div>
                 </div>
             ))}            
         </div>

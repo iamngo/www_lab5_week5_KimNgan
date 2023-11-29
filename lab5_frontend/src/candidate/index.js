@@ -34,15 +34,15 @@ const Candidate = () => {
     return ( 
     <div className="container">
         <div className="header"><Logo /></div>
-        <div className="content">
+        <div className="content-candidate">
             {companies.map((comp, index) => (
                 <div key={index} className="content-company" onClick={() => handleClickComp(comp.id)}>
                     <div className="company-name"><b>{comp.name}</b></div>
-                    <div>About: {comp.about}</div>
-                    <div>Phone: {comp.phone}</div>
-                    <div>Email: {comp.email}</div>
-                    <div>URL: {comp.webUrl}</div>
-                    <div>Address: {`${comp.address.number} ${comp.address.street}, ${comp.address.city}, ${comp.address.country}`}</div>
+                    <div><b>About:</b> {comp.about}</div>
+                    <div><b>Phone: </b>{comp.phone}</div>
+                    <div><b>Email: </b>{comp.email}</div>
+                    <div><b>URL: </b>{comp.webUrl}</div>
+                    <div><b>Address: </b>{`${comp.address.number} ${comp.address.street}, ${comp.address.city}, ${comp.address.country}`}</div>
                 </div>
             ))}            
         </div>
